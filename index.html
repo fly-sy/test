@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-size: 12px;
+            font-family: "微软雅黑";
+        }
+        ul,li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+        .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
+        .message {
+            color: #000;
+            font-size: 20px;
+            display: inline-block;
+            border: 1px solid transparent;
+            padding: 5px;
+            background: #ddd;
+            border-radius: 3px;
+        }
+        .message:hover {
+            box-shadow: 0 0 20px #ddd;
+            border: 1px dashed #ddd;
+            background: #ddd;
+            color: #f67;
+        }
+        .btn {
+            display: block;
+            border: 1px solid #ddd;
+            padding: 5px;
+            outline: none;
+            border-radius: 3px;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .btn:hover {
+            background: #ddd;
+            color: #f67;
+        }
+    </style>
+</head>
+<body>
+
+    <a class="message" href="tencent://message/?uin=942093888&Site=Sambow&Menu=yes"> QQ与我对话</a>
+    <button class="btn" id="btn">QQ分享</button>
+    <script>
+
+        /*
+            qq 临时会话调用
+            <a href="tencent://message/?uin=942093888&Site=Sambow&Menu=yes"> qq对话</a>
+
+            各种分享接口
+            http://www.jiathis.com/
+
+         */
+
+
+
+        btn.onclick = function(){
+            window.open('http://service.weibo.com/share/share.php?title=请上天和太阳肩并肩...&&url=http://fly-sy.github.io/test&pic=http://h.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=b337c7b98ab1cb133e693b15e56f3173/0bd162d9f2d3572c9640308a8d13632763d0c3c2.jpg&ralateUid=#_loginLayer_1490785271868');
+        };
+        console.log('541000174353');
+    </script>
+</body>
+</html>
